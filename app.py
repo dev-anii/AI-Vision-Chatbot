@@ -11,7 +11,7 @@ from prompts import SUMMARY_REQUEST_PROMPT, SYSTEM_PROMPT, WELCOME_MESSAGE_TEMPL
 MODEL_NAME = "gemini-3.8-flash"
 st.set_page_config(page_title="MacroSnap", page_icon="🥗")
  
-GEMINI_API_KEY = st.secrets ["GEMINI_API_KEY"]
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 TWILIO_ACCOUNT_SID = st.secrets["TWILIO_ACCOUNT_SID"]
 TWILIO_AUTH_TOKEN = st.secrets["TWILIO_AUTH_TOKEN"]
 TWILIO_WHATSAPP_FROM = st.secrets["TWILIO_WHATSAPP_FROM"]
